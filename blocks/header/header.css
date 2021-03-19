@@ -1,3 +1,7 @@
+@import url("./header__button/header__button.css");
+@import url("./header__button/orange.css");
+@import url("./header__graphic/header__graphic-left.css");
+@import url("./header__graphic/header__graphic-right.css");
 .header {
   background-color: #242424;
   width: 1260px;
@@ -7,4 +11,6 @@
   display: grid;
   grid-template-columns: 1fr 420px 1fr;
   color: #fff;
+  padding: 150px 0;
+  text-align: center;
 }
