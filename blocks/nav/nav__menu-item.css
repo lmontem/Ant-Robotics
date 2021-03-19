@@ -1,0 +1,10 @@
+.nav__menu-item {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.nav__menu-item:last-of-type {
+  margin-right: 0px;
+}
+.nav__menu-item:first-of-type {
+  margin-left: 0px;
+}

@@ -1,0 +1,10 @@
+.header {
+  background-color: #242424;
+  width: 1260px;
+  border-radius: 14px;
+  height: 634px;
+  margin: 0 auto 10px;
+  display: grid;
+  grid-template-columns: 1fr 420px 1fr;
+  color: #fff;
+}
