@@ -1,5 +1,6 @@
-@import url("./main__box__card-cont.css");
-@import url("./main__box-icon.css");
+@import url("./__card-cont/benefits-box__card-cont.css");
+@import url("./__heading/benefits-box__heading.css");
+@import url("./__icon/benefits-box__icon.css");
 
 .benefits-box {
   height: 500px;

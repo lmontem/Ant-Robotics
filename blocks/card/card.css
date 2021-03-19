@@ -1,0 +1,9 @@
+@import url("./__desc/card__desc.css");
+@import url("./__heading/card__heading.css");
+
+.card {
+  text-align: left;
+  width: 235px;
+  margin: 0;
+  margin-right: 40px;
+}
