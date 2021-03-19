@@ -1,6 +1,6 @@
 @import url("./nav__menu.css");
-@import url("./nav__logo/nav__logo.css");
-@import url("./nav__in/nav__in.css");
+@import url("./__logo/nav__logo.css");
+@import url("./__in/nav__in.css");
 
 .nav {
   background-color: #393939;
