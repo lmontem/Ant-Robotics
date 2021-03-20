@@ -7,4 +7,15 @@
     font-size: 9px;
     font-weight: 500;
     line-height: 1.6;
+    border: none;
+    margin: 56px auto auto 35px;
+}
+.product__info-btn:hover{
+    opacity: .7;
+}
+
+@media screen and (max-width: 320px){
+    .product__info-btn{
+        
+    }
 }

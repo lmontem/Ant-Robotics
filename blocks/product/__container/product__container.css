@@ -2,7 +2,22 @@
     display: flex;
     background-color: #fff;
     min-width: 575px;
-    max-height: 324px;    
+    min-height: 324px;    
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.04);
     border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+    .product__container{
+        margin-top: 110px;
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .product__container{
+        flex-direction: column;
+    }
 }

@@ -7,3 +7,17 @@
     margin-bottom: 40px;
     margin-left: 100px;
 }
+
+@media screen and (max-width: 768px){
+    .product__description{
+        text-align: center;
+        margin: 22px auto 40px;
+        
+    }
+}
+
+@media screen and (max-width: 320px){
+    .product__description{
+        width: calc(100% - 2*12px);
+    }
+}

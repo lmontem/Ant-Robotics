@@ -6,4 +6,19 @@
     margin-top: 0;
     margin-left: 100px;
     margin-bottom: 22px;
+    margin-right: 65px;
+}
+
+@media screen and (max-width: 768px){
+    .product__title{
+        text-align: center;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .product__title{
+        width: calc(100% - 2*12px);
+        font-size: 28px;
+    }
 }

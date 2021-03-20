@@ -1,0 +1,15 @@
+.product__item{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px){
+    .product__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+        text-align: center;
+       
+    }
+}
