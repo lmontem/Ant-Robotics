@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>Ant Robotics</title>
 </head>
 
@@ -13,27 +14,33 @@
         <header></header>
         <main>
             <section class="product">
+                <div class="product__info">
                 <h2 class="product__title">Wide choice of transport robots</h2>
                 <p class="product__description">Few words about robots. Lorem ipsum, abra-kadabra, bla-bla-bla,
                     information about robots here.</p>
-                <ul class="product__list">
-                    <li class="product__item"> <img src="./images/checkmark.svg" alt="checkmark decoration">Some facts
+                <ul class="product__specs">
+                    <li class="product__item"><img src="./images/checkmark.svg" alt="checkmark decoration"> Some facts
                         here & below</li>
                     <li class="product__item"><img src="./images/checkmark.svg" alt="checkmark decoration">Flexible</li>
                     <li class="product__item"> <img src="./images/checkmark.svg" alt="checkmark decoration">Customizable
                     </li>
                 </ul>
+            </div>
                 <div class="product__container">
-                    <img class="product__image" src="" alt="robot">
+                    <button type="button" class="product__previous-btn"></button>
+                    <img class="product__image" src="./images/OTTO100 1.png" alt="robot">
+                   <div>
                     <h3 class="product__heading">OTTO 100 (pending)</h3>
-                    <ul>
+                    <ul class="product__specs">
                         <li>Max payload: 220 lbs (100 kg)</li>
                         <li>Size: 740 x 550 x 310 mm</li>
                         <li>Max speed: 4.3 mph</li>
                         <li>Running time: 4 hrs or 9 mi</li>
                         <li>Charging time: 1.2 hrs (0-80%: 0.75 hrs)</li>
-
                     </ul>
+                    <button type="button" class="product__info-btn">Get more info</button>
+                </div>
+                    <button type="button" class="product__next-btn"></button>
                 </div>
             </section>
         </main>

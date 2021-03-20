@@ -1,0 +1,9 @@
+.product__description{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    max-width: 320px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    margin-left: 100px;
+}

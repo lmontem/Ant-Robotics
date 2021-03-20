@@ -1,0 +1,11 @@
+.product__next-btn{
+    background-image: url('../../../images/right-arrow.svg'),url('../../../images/arrow-line.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+    background-position: bottom right, top 6.5px right;
+    width: 20px;
+    height: 15px;
+    align-self: center;
+}

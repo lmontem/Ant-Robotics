@@ -1,0 +1,9 @@
+.product__title{
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 43px;
+    max-width: 420px;
+    margin-top: 0;
+    margin-left: 100px;
+    margin-bottom: 22px;
+}
