@@ -1,0 +1,10 @@
+.benefits-box__icon {
+  width: 52px;
+  height: 52px;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  background-image: url("../../../images/Icon-TopNotch.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}

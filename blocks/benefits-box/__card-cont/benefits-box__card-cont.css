@@ -1,0 +1,6 @@
+.benefits-box__card-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 70px 100px 110px 100px;
+}

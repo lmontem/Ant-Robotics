@@ -1,0 +1,8 @@
+.nav__logo {
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.04em;
+  cursor: pointer;
+}

@@ -1,0 +1,18 @@
+@import url("./__button/header__button.css");
+@import url("./__button/orange.css");
+@import url("./__graphic/header__graphic-left.css");
+@import url("./__graphic/header__graphic-right.css");
+@import url("./__content/header__content-info.css");
+@import url("./__content/header__content-title.css");
+
+.header {
+  background-color: #242424;
+  width: 100%;
+  border-radius: 14px;
+  margin: 0 auto 10px;
+  display: grid;
+  grid-template-columns: 1fr 420px 1fr;
+  color: #fff;
+  padding: 150px 0;
+  text-align: center;
+}

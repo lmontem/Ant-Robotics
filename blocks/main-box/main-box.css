@@ -1,0 +1,18 @@
+@import url("./main__box__card-cont.css");
+@import url("./main__box-icon.css");
+
+.benefits-box {
+  height: 500px;
+  left: 10px;
+  top: 1208px;
+  padding: 100px;
+  background: #f9f9f9;
+  border-radius: 14px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 43px;
+  /* identical to box height, or 126% */
+
+  color: #000000;
+}
