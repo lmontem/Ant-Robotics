@@ -1,0 +1,23 @@
+.product__previous-btn{
+    background-image: url('../../../images/left-arrow.svg'), url('../../../images/arrow-line.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+    background-position: bottom left, top 6px left 3px;
+    width: 20px;
+    height: 15px;
+    align-self: center;
+}
+
+.product__previous-btn:hover{
+    opacity: .5;
+}
+
+@media screen and (max-width:525px){
+    .product__previous-btn{
+        position: absolute; 
+        top: 80px;
+        left: 150px;
+    }
+}
