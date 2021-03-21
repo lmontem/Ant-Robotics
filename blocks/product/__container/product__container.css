@@ -16,8 +16,11 @@
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 525px){
     .product__container{
         flex-direction: column;
+        margin: calc(100% - 2*64);
+        position: relative;
+        max-width: 280px;
     }
 }

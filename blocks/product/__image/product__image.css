@@ -3,3 +3,9 @@
     max-height: 160px;
     margin-left: 40px;
 }
+
+@media screen and (max-width:320px){
+    .product__image{
+        margin: 0 auto;
+    }
+}

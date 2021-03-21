@@ -3,7 +3,7 @@
     font-size: 14px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
     .product__item{
         display: flex;
         flex-direction: column;

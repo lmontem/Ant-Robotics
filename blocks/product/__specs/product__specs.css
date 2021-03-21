@@ -3,3 +3,10 @@
     margin: 0 40px 0 35px ;
     padding-left:0;
 }
+
+@media screen and (max-width:525px){
+    .product__specs{
+      text-align: center;
+      margin: 18px 12px 32px;
+    }
+}

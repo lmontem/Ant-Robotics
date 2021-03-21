@@ -14,8 +14,9 @@
     opacity: .7;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 525px){
     .product__info-btn{
+        margin: 0 90px 36px;
         
     }
 }
