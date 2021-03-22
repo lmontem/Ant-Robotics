@@ -1,0 +1,15 @@
+@import url('./__title/team__title.css');
+@import url('./__cards/team__cards.css');
+@import url('./__card/team__card.css');
+@import url('./__avatar/team__avatar.css');
+@import url('./__name/team__name.css');
+@import url('./__position/team__position.css');
+@import url('./__description/team__description.css');
+
+.team{
+    border-radius: 14px;
+    max-width: 1260px;
+    margin: 10px auto;
+    background-color: #F9F9F9;
+  
+}
