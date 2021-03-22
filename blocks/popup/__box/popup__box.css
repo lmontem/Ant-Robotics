@@ -1,0 +1,5 @@
+.popup__box{
+    max-width: 384px;
+    display: flex;
+    flex-direction: column;
+}
