@@ -12,6 +12,7 @@
 @import url('./__previous-btn/product__previous-btn.css');
 @import url('./__next-btn/product__next-btn.css');
 @import url('./__info-btn/product__info-btn.css');
+
 .product{
     background-color: #F9F9F9;
     border-radius: 14px;
