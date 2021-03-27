@@ -1,5 +1,10 @@
 .popup__box{
-    max-width: 384px;
+    min-width: 384px;
     display: flex;
     flex-direction: column;
+    background-color: white;
+    padding: 30px;    
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 4px;
 }
