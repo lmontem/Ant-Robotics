@@ -1,7 +1,34 @@
 import { team } from "../configs/team.js";
+import {gallery} from "../configs/gallery.js";
 
+//gallery buttons
+const galleryNextBtn = document.querySelector('.gallery__next-btn');
+const galleryPreviousBtn = document.querySelector('.gallery__previous-btn');
+const galleryImage = document.querySelector('.gallery__image');
+const galleryCaption = document.querySelector('.gallery__caption');
+//next button logic
+let currentImage = 0;
+galleryNextBtn.addEventListener('click', ()=>{
+    if(currentImage < gallery.length -1){        
+        currentImage++;
+        galleryImage.style.backgroundImage = `url(${Object.values(gallery)[currentImage].image})`;              
+        galleryCaption.textContent = Object.values(gallery)[currentImage].caption
+    }
+
+})
+//previous button logic
+galleryPreviousBtn.addEventListener('click',()=>{
+    if( currentImage >=1){
+        currentImage--;
+        galleryImage.style.backgroundImage = `url(${Object.values(gallery)[currentImage].image})`;              
+        galleryCaption.textContent = Object.values(gallery)[currentImage].caption
+    }
+})
+
+//team constants
 const cardTemplate = document.querySelector('.card-template').content.querySelector('.team__card');
 const teamCards = document.querySelector('.team__cards');
+
 
 //function to get info from team config
 function teamMembers(member) {
@@ -21,3 +48,4 @@ function teamMembers(member) {
 team.forEach(item => {
     teamCards.append(teamMembers(item));
 })
+
