@@ -2,5 +2,11 @@
   width: 420px;
   display: flex;
   flex-direction: row;
-  
+}
+@media only screen and (max-width: 900px) {
+  .header__button_container {
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+  }
 }
