@@ -1,0 +1,6 @@
+.contact-box__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 450px;
+}

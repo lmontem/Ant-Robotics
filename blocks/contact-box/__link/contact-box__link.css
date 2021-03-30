@@ -1,0 +1,16 @@
+.contact-box__link {
+  margin: 0;
+  text-decoration: none;
+  text-decoration-line: underline;
+  color: #000000;
+  -webkit-transition: color 0.5s linear;
+  -moz-transition: color 0.5s linear;
+  -ms-transition: color 0.5s linear;
+  -o-transition: color 0.5s linear;
+  transition: color 0.5s linear;
+}
+.contact-box__link:hover {
+  color: #faa805;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
