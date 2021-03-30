@@ -1,3 +1,4 @@
+@import url("./__close/hamburger__close.css");
 .hamburger {
   background-image: url("../../images/menu.svg");
   width: 16px;

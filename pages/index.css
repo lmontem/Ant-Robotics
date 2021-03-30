@@ -5,6 +5,8 @@
 @import url("../blocks/card/card.css");
 @import url("../blocks/contact-box/contact-box.css");
 @import url("../blocks/hamburger/hamburger.css");
+@import url("../blocks/hiddenNav/hiddenNav.css");
+@import url("../blocks/hidden/hidden.css");
 
 a {
   text-decoration: none;

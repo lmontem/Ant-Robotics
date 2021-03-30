@@ -3,6 +3,18 @@ import { custBenefits } from "../configs/custBenefits.js";
 
 const BenefitsBox = document.querySelector(".Benefits");
 const custBenBox = document.querySelector(".custBenefits");
+const hamburger = document.querySelector(".hamburger");
+const hiddenNav = document.querySelector(".hiddenNav");
+
+hamburger.addEventListener("click", () => {
+  if (hiddenNav.style.display === "block") {
+    hiddenNav.style.display = "none";
+    hamburger.style.backgroundimage = `url("../../images/menu.svg");`;
+  } else {
+    hiddenNav.style.display = "block";
+    hamburger.style.backgroundimage = `url("../../images/close.svg");`;
+  }
+});
 
 const benTemplate = document
   .querySelector(".benefit-template")

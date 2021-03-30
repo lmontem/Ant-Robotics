@@ -1,0 +1,19 @@
+@import url("./__menu/hiddenNav__menu.css");
+
+.hiddenNav {
+  position: fixed;
+  top: 75px;
+  width: 280px;
+  color: white;
+  background: #393939;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  display: none;
+  left: 50%;
+  margin-left: -140px; /* Half of the width */
+}
+@media only screen and (max-width: 800px) {
+  .hiddenNav {
+    display: none;
+  }
+}
