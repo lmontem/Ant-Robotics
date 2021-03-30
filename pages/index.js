@@ -41,3 +41,16 @@ function getCustBenefits(benefit) {
 custBenefits.forEach((benefit) => {
   custBenBox.append(getCustBenefits(benefit));
 });
+
+/* Color Change button */
+var clickCount = 1;
+function setColor(btn, color) {
+  var property = document.querySelector(btn);
+
+  if (count == 0) {
+    property.style.color = color;
+  } else {
+    property.style.color = "white";
+    count = 0;
+  }
+}

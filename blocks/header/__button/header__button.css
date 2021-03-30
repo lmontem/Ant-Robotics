@@ -21,4 +21,12 @@
   font-size: 14px;
   line-height: 18px;
   text-align: center;
+  -webkit-transition: border 0.5s linear;
+  -moz-transition: border 0.5s linear;
+  -ms-transition: border 0.5s linear;
+  -o-transition: border 0.5s linear;
+  transition: border 0.5s linear;
+}
+.header__button:hover {
+  border: 1px solid #faa805;
 }

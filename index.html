@@ -8,96 +8,124 @@
     <meta name="description" content="Ant Robotics" />
     <meta name="keywords" content="HTML, CSS & Javascript" />
     <meta name="author" content="Leandra Montemarano & Desiree Bradish" />
-    <link rel=icon href='./images/favicon.svg'>
+    <link rel="icon" href="./images/favicon.svg" />
     <title>Ant Robotics</title>
   </head>
   <body>
-    <div class="page">
+    <div class="page" id="home">
       <nav class="nav">
-        <div class="nav__logo">Ant Robotics</div>
+        <div class="nav__logo"><a href="#home">Ant Robotics</a></div>
         <ul class="nav__menu">
-          <li class="nav__menu-item">Robots</li>
-        <li class="nav__menu-item">Benefits</li>
-        <li class="nav__menu-item">Gallery</li>
-        <li class="nav__menu-item">Will it work for Me?</li>
-        <li class="nav__menu-item"></li>Team</li>
-        <li class="nav__menu-item">Contact Us</li>
-        </ul>
-        <div class="nav__in">In</div>
-      </nav>
-      <header class='header'>
-          <div class='header__graphic-left'><img src='./images/header__graphic-left.svg'></div>
-        <div class='header__content'><h1 class='header__content-title'>Ant Robotics</h1>
-        <p class='header__content-info'>We simplify employment, team-up, and upgrade of transport robots in warehouses and factories.</p>
-    <div class='header__button_container'> 
-        <button class='header__button black'>Watch Video</button> 
-    <button class='header__button orange'>Learn More</button></div>
-    </div>
-        <div class='header__graphic-right'><img src='./images/header__graphic-right.svg'></div>
+          <a href="#INSERT_YOUR_OBJECT_NAME_HERE"></a>
 
+          <li class="nav__menu-item">
+            <a class="header__link" href="#robots">Robots</a>
+          </li>
+          <li class="nav__menu-item"><a href="#benefit">Benefits</a></li>
+          <li class="nav__menu-item"><a href="#gallery">Gallery</a></li>
+          <li class="nav__menu-item">
+            <a href="#custBen">Will it work for Me?</a>
+          </li>
+          <li class="nav__menu-item"><a href="#team">Team</a></li>
+          <li class="nav__menu-item"><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="nav__in">
+          <a href="https://www.linkedin.com/company/antrobotics/">In</a>
+          <div class="hamburger"></div>
+        </div>
+      </nav>
+      <header class="header">
+        <div class="header__graphic-left">
+          <img src="./images/header__graphic-left.svg" />
+        </div>
+        <div class="header__content">
+          <h1 class="header__content-title">Ant Robotics</h1>
+          <p class="header__content-info">
+            We simplify employment, team-up, and upgrade of transport robots in
+            warehouses and factories.
+          </p>
+          <div class="header__button_container">
+            <button
+              class="header__button header__button-vid black"
+              onclick="setColor('header__button-vid', 'orange')"
+            >
+              Watch Video
+            </button>
+            <button class="header__button orange">Learn More</button>
+          </div>
+        </div>
+        <div class="header__graphic-right">
+          <img src="./images/header__graphic-right.svg" />
+        </div>
       </header>
       <main>
-        
-        <div class='benefits-box'>
-          <h1 class='benefits-box__heading'>Benefits</h1>
-          
-          
-        <div class='benefits-box__card-cont Benefits'>
+        <div class="benefits-box">
+          <h1 class="benefits-box__heading" id="benefit">Benefits</h1>
+
+          <div class="benefits-box__card-cont Benefits"></div>
         </div>
-      </div>
 
+        <div class="benefits-box">
+          <h1 class="benefits-box__heading" id="custBen">Customer Benefits</h1>
+          <div class="benefits-box__card-cont custBenefits"></div>
+        </div>
 
-    <div class='benefits-box'>
-      <h1 class='benefits-box__heading'>Customer Benefits</h1>
-    <div class='benefits-box__card-cont custBenefits'>
-      </div>
-    </div>
-
-
-
-<div class='contact-box'>
-  <div class='contact-box__info'>
-    <span class='contact-box__title'>Contacts</span>
-    <div class='contact-box__address'>
-
-     <p class='contact-box__item'><strong>Address:</strong> 8000 Edgewater Dr. Oakland, CA 94621, USA</p>
-     <p class='contact-box__item'><strong>Phone:</strong> +1 (650) 209-0-269</p>
-     <p class='contact-box__item'><strong>Email: </strong>info@antrobotics.tech</p>
-     <a class='contact-box__item contact-box__link' href='https://www.linkedin.com/company/antrobotics/'>LinkedIn</a>
-    </div>
-    <span class='contact-box__copyright'>© ANT Robotics, 2020.</span>
-  </div>
-  <div class='contact-box__map'><iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.607466656357!2d-122.20304857626397!3d37.74077838180182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f85bee5c2f57b%3A0x115b0ab943d303e6!2s8000%20Edgewater%20Dr%2C%20Oakland%2C%20CA%2094621!5e0!3m2!1sno!2sus!4v1617063651233!5m2!1sno!2sus"
-    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
-</div>
-
+        <div class="contact-box" id="contact">
+          <div class="contact-box__info">
+            <span class="contact-box__title">Contacts</span>
+            <div class="contact-box__address">
+              <p class="contact-box__item">
+                <strong>Address:</strong> 8000 Edgewater Dr. Oakland, CA 94621,
+                USA
+              </p>
+              <p class="contact-box__item">
+                <strong>Phone:</strong> +1 (650) 209-0-269
+              </p>
+              <p class="contact-box__item">
+                <strong>Email: </strong>info@antrobotics.tech
+              </p>
+              <a
+                class="contact-box__item contact-box__link"
+                href="https://www.linkedin.com/company/antrobotics/"
+                >LinkedIn</a
+              >
+            </div>
+            <span class="contact-box__copyright">© ANT Robotics, 2020.</span>
+          </div>
+          <div class="contact-box__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.607466656357!2d-122.20304857626397!3d37.74077838180182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f85bee5c2f57b%3A0x115b0ab943d303e6!2s8000%20Edgewater%20Dr%2C%20Oakland%2C%20CA%2094621!5e0!3m2!1sno!2sus!4v1617063651233!5m2!1sno!2sus"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
       </main>
       <footer></footer>
     </div>
 
-
-
-<script type="module" src="./pages/index.js"></script>
-<script type="module" src="./configs/benefits.js"></script>
+    <script type="module" src="./pages/index.js"></script>
+    <script type="module" src="./configs/benefits.js"></script>
   </body>
-  
-  </html>
+</html>
 
-  <!-- Benefit Template -->
-  <template class='benefit-template'>
-    <div class='card'>
-      <div class='benefits-box__icon'></div>
-      <div class='card__heading'>Title</div>
-      <p class='card__desc'>Desc.</p>
-    </div>
-  </template>
+<!-- Benefit Template -->
+<template class="benefit-template">
+  <div class="card">
+    <div class="benefits-box__icon"></div>
+    <div class="card__heading">Title</div>
+    <p class="card__desc">Desc.</p>
+  </div>
+</template>
 
-    <!-- Cust Benefit Template -->
-    <template class='cust-benefit-template'>
-      <div class='card center'>
-        <div class='benefits-box__image'></div>
-        <div class='card__heading'>Title</div>
-        <p class='card__desc'>Desc.</p>
-      </div>
-    </template>
+<!-- Cust Benefit Template -->
+<template class="cust-benefit-template">
+  <div class="card center">
+    <div class="benefits-box__image"></div>
+    <div class="card__heading">Title</div>
+    <p class="card__desc">Desc.</p>
+  </div>
+</template>
