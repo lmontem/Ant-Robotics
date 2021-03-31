@@ -1,0 +1,5 @@
+.hamburger__close {
+  background-image: url("../../../images/close.svg");
+  width: 14px;
+  height: 14px;
+}

@@ -1,0 +1,14 @@
+@import url("./__close/hamburger__close.css");
+.hamburger {
+  background-image: url("../../images/menu.svg");
+  width: 16px;
+  height: 14px;
+  margin-left: 22px;
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .hamburger {
+    display: block;
+  }
+}

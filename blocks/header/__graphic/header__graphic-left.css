@@ -1,3 +1,16 @@
 .header__graphic-left {
   margin-left: 150px;
+  height: 354px;
+}
+@media only screen and (max-width: 1000px) {
+  .header__graphic-left {
+    height: 177px;
+    margin-left: 40px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .header__graphic-left {
+    display: none;
+  }
 }
