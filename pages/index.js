@@ -1,4 +1,3 @@
-
 import { benefits } from "../configs/benefits.js";
 import { custBenefits } from "../configs/custBenefits.js";
 import { team } from "../configs/team.js";
