@@ -1,0 +1,10 @@
+.team__title{
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 43px;
+    text-align: center;
+    padding-bottom: 90px;
+    padding-top: 110px;
+    margin: 0 auto;
+    max-width: 480px;
+}

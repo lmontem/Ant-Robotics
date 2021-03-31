@@ -1,0 +1,7 @@
+.team__avatar{
+    background-image: url('../../../images/avatar.svg');
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 74px;
+    margin-top: 8px;
+}

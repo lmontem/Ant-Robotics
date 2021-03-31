@@ -1,0 +1,13 @@
+@import url('./__title/gallery__title.css');
+@import url('./__image/gallery__image.css');
+@import url('./__caption/gallery__caption.css');
+@import url('./__previous-btn/gallery__previous-btn.css');
+@import url('./__next-btn/gallery__next-btn.css');
+
+.gallery{
+    background-color: #f9f9f9;
+    border-radius: 14px;
+    max-width: 1260px;
+    margin: 10px auto;  
+    position: relative;
+}
