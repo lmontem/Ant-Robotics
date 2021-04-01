@@ -4,7 +4,8 @@ import { team } from "../configs/team.js";
 import { gallery } from "../configs/gallery.js";
 import { products } from "../configs/products.js";
 
-const BenefitsBox = document.querySelector(".Benefits");
+const BenefitsBox = document.querySelector(".benefits");
+console.log(BenefitsBox);
 const custBenBox = document.querySelector(".custBenefits");
 const hamburger = document.querySelector(".hamburger");
 const hiddenNav = document.querySelector(".hiddenNav");
