@@ -1,0 +1,19 @@
+.gallery__image{
+    max-width: 660px;
+    height: 320px;
+    filter: drop-shadow(0px 4px 40px rgba(0, 0, 0, 0.04));
+    border-radius: 6px;
+    background-image: url('../../../images/robot-gallery.png');
+    background-repeat: no-repeat;
+    margin: auto;
+    background-size: cover;
+}
+
+@media screen and (max-width: 320px){
+    .gallery__image{
+        max-width: 280px;
+        height: 160px;
+    }
+}
+
+

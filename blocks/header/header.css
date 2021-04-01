@@ -1,4 +1,5 @@
 @import url("./__button/header__button.css");
+@import url("./__button/header__button-container.css");
 @import url("./__button/orange.css");
 @import url("./__graphic/header__graphic-left.css");
 @import url("./__graphic/header__graphic-right.css");
@@ -11,7 +12,7 @@
   border-radius: 14px;
   margin: 0 auto 10px;
   display: grid;
-  grid-template-columns: 1fr 420px 1fr;
+  grid-template-columns: repeat(3, 1fr);
   color: #fff;
   padding: 150px 0;
   text-align: center;
@@ -19,12 +20,12 @@
 }
 @media only screen and (max-width: 900px) {
   .header {
-    grid-template-columns: 1fr 320px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 @media only screen and (max-width: 700px) {
   .header {
-    grid-template-columns: 1fr;
+    display: block;
   }
 }

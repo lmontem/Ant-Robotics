@@ -1,3 +1,13 @@
 .header__content-info {
   margin: 16px auto 92px auto;
 }
+@media only screen and (max-width: 900px) {
+  .header__content-info {
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .header__content-info {
+    width: 280px;
+  }
+}

@@ -30,3 +30,9 @@
 .header__button:hover {
   border: 1px solid #faa805;
 }
+
+@media only screen and (max-width: 900px) {
+  .header__button {
+    margin: 0;
+  }
+}

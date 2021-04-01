@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./pages/index.css" />
-    <meta name="description" content="Ant Robotics" />
-    <meta name="keywords" content="HTML, CSS & Javascript" />
-    <meta name="author" content="Leandra Montemarano & Desiree Bradish" />
-    <link rel="icon" href="./images/favicon.svg" />
-    <title>Ant Robotics</title>
-  </head>
-  <body>
-    <div class="page" id="home">
-      <nav class="nav">
-        <div class="nav__logo"><a href="#home">Ant Robotics</a></div>
-        <ul class="nav__menu">
-          <li class="nav__menu-item">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./pages/index.css" />
+  <meta name="description" content="Ant Robotics" />
+  <meta name="keywords" content="HTML, CSS & Javascript" />
+  <meta name="author" content="Leandra Montemarano & Desiree Bradish" />
+  <link rel=icon href='./images/favicon.svg'>
+  <title>Ant Robotics</title>
+</head>
+<body>
+  <div class="page" id="home">
+    <nav class="nav">
+      <div class="nav__logo"><a href="#home">Ant Robotics</a></div>
+      <ul class="nav__menu">
+        <li class="nav__menu-item">
             <a class="header__link" href="#robots">Robots</a>
           </li>
           <li class="nav__menu-item"><a href="#benefit">Benefits</a></li>
@@ -27,22 +27,22 @@
           <li class="nav__menu-item"><a href="#team">Team</a></li>
           <li class="nav__menu-item"><a href="#contact">Contact Us</a></li>
         </ul>
-        <div class="nav__in">
-          <a href="https://www.linkedin.com/company/antrobotics/">In</a>
+      <div class="nav__in">
+	  <a href="https://www.linkedin.com/company/antrobotics/">In</a>
           <div class="hamburger"></div></div>
-        </div>
-      </nav>
-      <header class="header">
-        <div class="header__graphic-left">
-          <img src="./images/header__graphic-left.svg" />
-        </div>
-        <div class="header__content">
-          <h1 class="header__content-title">Ant Robotics</h1>
-          <p class="header__content-info">
-            We simplify employment, team-up, and upgrade of transport robots in
-            warehouses and factories.
-          </p>
-          <div class="header__button_container">
+		  </div>
+    </nav>
+    <header class='header'>
+     
+		<img class='header__graphic-left' src='./images/header__graphic-left.svg'>
+
+      <div class='header__content'>
+        <h1 class='header__content-title'>Ant Robotics</h1>
+        <p class='header__content-info'>
+			We simplify employment, team-up, and upgrade of transport robots in 
+			warehouses and factories.
+			</p>
+        <div class="header__button-container">
             <button
               class="header__button header__button-vid black"
               onclick="setColor('header__button-vid', 'orange')"
@@ -51,22 +51,101 @@
             </button>
             <button class="header__button orange">Learn More</button>
           </div>
+      </div>
+
+		<img class='header__graphic-right' src='./images/header__graphic-right.svg'>
+
+
+    </header>
+    <main>
+      <section class="product">
+        <div class="product__info">
+          <h2 class="product__title">Wide choice of transport robots</h2>
+          <p class="product__description">Few words about robots. Lorem ipsum, abra-kadabra, bla-bla-bla,
+            information about robots here.</p>
+          <ul class="product__facts">
+            <li class="product__item"><img class="product__checkmark" src="./images/checkmark.svg"
+                alt="checkmark decoration"> Some facts
+              here & below</li>
+            <li class="product__item"><img class="product__checkmark" src="./images/checkmark.svg"
+                alt="checkmark decoration">Flexible</li>
+            <li class="product__item"> <img class="product__checkmark" src="./images/checkmark.svg"
+                alt="checkmark decoration">Customizable
+            </li>
+          </ul>
         </div>
-        <div class="header__graphic-right">
-          <img src="./images/header__graphic-right.svg" />
+        <div class="product__container">
+          <button type="button" class="product__previous-btn"></button>
+          <img class="product__image" src="./images/OTTO100 1.png" alt="robot">
+          <div>
+            <h3 class="product__heading">OTTO 100 (pending)</h3>
+            <ul class="product__specs">
+              <li class="product__spec">Max payload: <span class="product__span max-payload"> 220 lbs (100 kg)</span></li>
+              <li class="product__spec">Size:<span class="product__span size"> 740 x 550 x 310 mm</span></li>
+              <li class="product__spec">Max speed:<span class="product__span max-speed"> 4.3 mph</span></li>
+              <li class="product__spec">Running time:<span class="product__span running-time"> 4 hrs or 9 mi</span></li>
+              <li class="product__spec">Charging time:<span class="product__span charging-time"> 1.2 hrs (0-80%: 0.75 hrs)</span></li>
+            </ul>
+            <button type="button" class="product__info-btn">Get more info</button>
+          </div>
+          <button type="button" class="product__next-btn"></button>
+        </div>
+      </section>
+      <div class='benefits-box'>
+        <h1 class='benefits-box__heading'>Benefits</h1>
+
+
+        <div class='benefits-box__card-cont'>
+          <!-- Card -->
+          <div class='card'>
+            <div class='benefits-box__icon'></div>
+            <div class='card__heading'>Top-Notch Technology</div>
+            <p class='card__desc'>Once you transform your indoor logistics, we'll keep it up-to-date.</p>
+          </div>
+          <!-- Card -->
+          <div class='card'>
+            <div class='benefits-box__icon'></div>
+            <div class='card__heading'>Top-Notch Technology</div>
+            <p class='card__desc'>Once you transform your indoor logistics, we'll keep it up-to-date.</p>
+          </div>
+          <!-- Card -->
+          <div class='card'>
+            <div class='benefits-box__icon'></div>
+            <div class='card__heading'>Top-Notch Technology</div>
+            <p class='card__desc'>Once you transform your indoor logistics, we'll keep it up-to-date.</p>
+          </div>
+          <!-- Card -->
+          <div class='card'>
+            <div class='benefits-box__icon'></div>
+            <div class='card__heading'>Top-Notch Technology</div>
+            <p class='card__desc'>Once you transform your indoor logistics, we'll keep it up-to-date.</p>
+          </div>
         </div>
       </header>
       <main>
         <div class="benefits-box">
           <h1 class="benefits-box__heading" id="benefit">Benefits</h1>
 
-          <div class="benefits-box__card-cont Benefits"></div>
-        </div>
-
         <div class="benefits-box">
           <h1 class="benefits-box__heading" id="custBen">Customer Benefits</h1>
           <div class="benefits-box__card-cont custBenefits"></div>
         </div>
+		<section class="gallery">
+        <h2 class="gallery__title">Gallery</h2>
+        <button class="gallery__previous-btn" type="button"></button>
+
+        <div class="gallery__image"></div>
+        <p class="gallery__caption">ANT 100 Robot at work</p>
+
+        <button class="gallery__next-btn" type="button"></button>
+      </section>
+	  <section class="team">
+        <h2 class="team__title">Team</h2>
+        <div class="team__cards">
+                   
+          
+        </div>
+      </section>
 
         <div class="contact-box" id="contact">
           <div class="contact-box__info">
@@ -103,6 +182,31 @@
         </div>
       </main>
       <footer></footer>
+	  <div class="popup">
+      <div class="popup__box">
+        <button class="popup__close-btn" type="button" aria-label="Close"></button>
+        <h3 class="popup__title">Write Us</h3>
+        <form class="popup__form">
+          <label class="popup__label">Name</label>
+          <input class="popup__input" type="text">
+          <label class="popup__label">Email*</label>
+          <input class="popup__input" type="email" required>
+          <label class="popup__label">Message</label>
+          <input class="popup__input" type="text" required>
+          <button class="popup__submit-btn" type="submit" aria-label="submit">Submit</button>
+        </form>
+        
+      </div>
+    </div>
+    <template class="card-template">
+      <div class="team__card">
+        <div class="team__avatar"></div>
+        <h3 class="team__name"></h3>
+        <p class="team__position"></p>
+        <p class="team__description"></p>
+      </div>
+    </template>
+  </div>
     </div>
     <div class="hiddenNav">
       <ul class="hiddenNav__menu">
@@ -121,6 +225,8 @@
 
     <script type="module" src="./pages/index.js"></script>
     <script type="module" src="./configs/benefits.js"></script>
+	<script type="module" src="./configs/team.js"></script>
+	<script type="module" src="./configs/gallery.js"></script>
   </body>
 </html>
 

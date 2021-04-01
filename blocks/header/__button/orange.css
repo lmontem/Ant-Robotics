@@ -3,3 +3,8 @@
   margin-left: 10px;
   color: #fff;
 }
+@media only screen and (max-width: 900px) {
+  .orange {
+    margin: 0;
+  }
+}
