@@ -10,6 +10,11 @@
   .benefits-box__card-cont {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    background-color: dodgerblue;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .benefits-box__card-cont {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
   }
 }
