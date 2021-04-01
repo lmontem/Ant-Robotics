@@ -48,7 +48,7 @@ function getCustBenefits(benefit) {
   const cardImage = newCard.querySelector(".benefits-box__image");
   const cardTitle = newCard.querySelector(".card__heading");
   const cardDesc = newCard.querySelector(".card__desc");
-  cardImage.style.backgroundImage = `url(${benefit.image})`;
+  cardImage.style.backgroundImage = `../images/url(${benefit.image})`;
   cardTitle.textContent = benefit.title;
   cardDesc.textContent = benefit.desc;
   return newCard;
