@@ -9,16 +9,18 @@
 @import url("../blocks/hiddenNav/hiddenNav.css");
 @import url("../blocks/hidden/hidden.css");
 
+@import url("../vendor/normalize.css");
+@import url("../fonts/fonts.css");
+@import url("../blocks/product/product.css");
+@import url("../blocks/gallery/gallery.css");
+@import url("../blocks/team/team.css");
+@import url("../blocks/popup/popup.css");
+@import url("../blocks/popup/__open/popup__open.css");
+
 a {
   text-decoration: none;
   color: inherit;
 }
-
-@import url('../vendor/normalize.css');
-@import url('../fonts/fonts.css');
-@import url('../blocks/product/product.css');
-@import url('../blocks/gallery/gallery.css');
-@import url('../blocks/team/team.css');
-@import url('../blocks/popup/popup.css');
-@import url('../blocks/popup/__open/popup__open.css');
-
+body {
+  font-family: "Inter";
+}
