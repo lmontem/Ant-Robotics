@@ -4,7 +4,7 @@ import { team } from "../configs/team.js";
 import { gallery } from "../configs/gallery.js";
 import { products } from "../configs/products.js";
 
-const BenefitsBox = document.querySelector(".benefits");
+const BenefitsBox = document.querySelector(".benefit-select");
 const custBenBox = document.querySelector(".custBenefits");
 const hamburger = document.querySelector(".hamburger");
 const hiddenNav = document.querySelector(".hiddenNav");
@@ -28,7 +28,7 @@ function getBenefits(benefit) {
   const cardIcon = newCard.querySelector(".benefits-box__icon");
   const cardTitle = newCard.querySelector(".card__heading");
   const cardDesc = newCard.querySelector(".card__desc");
-  cardIcon.style.backgroundImage = `url(images/${benefit.image})`;
+  cardIcon.style.backgroundImage = `url(./images/${benefit.image})`;
   cardTitle.textContent = benefit.title;
   cardDesc.textContent = benefit.desc;
   return newCard;
@@ -47,7 +47,7 @@ function getCustBenefits(benefit) {
   const cardImage = newCard.querySelector(".benefits-box__image");
   const cardTitle = newCard.querySelector(".card__heading");
   const cardDesc = newCard.querySelector(".card__desc");
-  cardImage.style.backgroundImage = `url(images/${benefit.image})`;
+  cardImage.style.backgroundImage = `url(./images/${benefit.image})`;
   cardTitle.textContent = benefit.title;
   cardDesc.textContent = benefit.desc;
 
