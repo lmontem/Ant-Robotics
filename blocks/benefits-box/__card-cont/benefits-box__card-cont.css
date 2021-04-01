@@ -3,5 +3,8 @@
   flex-direction: row;
   justify-content: space-around;
   margin: 70px 100px 110px 100px;
+}
+
+@media only screen and (max-width: 800px) {
   flex-wrap: wrap;
 }
