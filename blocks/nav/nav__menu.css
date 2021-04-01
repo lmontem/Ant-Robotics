@@ -13,6 +13,7 @@
   font-size: 12px;
   font-weight: 500;
   align-items: center;
+  margin: 0;
 }
 @media only screen and (max-width: 800px) {
   .nav__menu {
