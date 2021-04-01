@@ -3,24 +3,29 @@
 @import url("./__in/nav__in.css");
 
 .nav {
-  --color: #fff;
-  -webkit-align-items: center;
-  align-items: center;
   background-color: #393939;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
   border-radius: 6px;
-  box-shadow: 0 4px 20px rgb(0 0 0 / 4%);
-  box-sizing: border-box;
-  color: #fff;
-  display: flex;
-  left: 50%;
-  margin: 22px 0 0;
-  min-height: 48px;
-  padding: 0 12px;
   position: fixed;
   top: 0;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  min-width: 280px;
-  width: 87.5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.04em;
+  color: #fff;
+  box-sizing: border-box;
+  margin: 20px auto;
+  min-height: 48px;
+  padding: 0 12px;
+  width: 95vw;
+  min-width: 320px;
   z-index: 1;
 }
