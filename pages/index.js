@@ -25,6 +25,7 @@ const benTemplate = document
   .content.querySelector(".card");
 
 function getBenefits(benefit) {
+  console.log("You suck");
   const newCard = benTemplate.cloneNode(true);
   const cardIcon = newCard.querySelector(".benefits-box__icon");
   const cardTitle = newCard.querySelector(".card__heading");
@@ -32,6 +33,7 @@ function getBenefits(benefit) {
   cardIcon.style.backgroundImage = `url(${benefit.image})`;
   cardTitle.textContent = benefit.title;
   cardDesc.textContent = benefit.desc;
+
   return newCard;
 }
 
@@ -51,6 +53,7 @@ function getCustBenefits(benefit) {
   cardImage.style.backgroundImage = `url(${benefit.image})`;
   cardTitle.textContent = benefit.title;
   cardDesc.textContent = benefit.desc;
+
   return newCard;
 }
 
