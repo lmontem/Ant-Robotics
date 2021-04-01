@@ -9,5 +9,7 @@
   .benefits-box__heading {
     text-align: center;
     margin: 0;
+    font-size: 28px;
+    line-height: 32px;
   }
 }
