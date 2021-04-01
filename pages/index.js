@@ -4,7 +4,7 @@ import { team } from "../configs/team.js";
 import { gallery } from "../configs/gallery.js";
 import { products } from "../configs/products.js";
 
-const BenefitsBox = document.querySelector(".benefit-select");
+const benefitsBox = document.querySelector(".benefit-select");
 const custBenBox = document.querySelector(".custBenefits");
 const hamburger = document.querySelector(".hamburger");
 const hiddenNav = document.querySelector(".hiddenNav");
@@ -35,7 +35,7 @@ function getBenefits(benefit) {
 }
 
 benefits.forEach((benefit) => {
-  BenefitsBox.append(getBenefits(benefit));
+  benefitsBox.append(getBenefits(benefit));
 });
 
 const custBenTemplate = document
