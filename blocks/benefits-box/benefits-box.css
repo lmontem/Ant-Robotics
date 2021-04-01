@@ -5,8 +5,7 @@
 
 .benefits-box {
   min-height: 500px;
-  left: 10px;
-  top: 1208px;
+  margin: auto;
   padding: 100px;
   background: #f9f9f9;
   border-radius: 14px;
@@ -17,4 +16,8 @@
   /* identical to box height, or 126% */
 
   color: #000000;
+}
+@media only screen and (max-width: 1000px) {
+  .benefits-box {
+  }
 }
