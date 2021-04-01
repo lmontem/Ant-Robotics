@@ -20,7 +20,7 @@
 }
 @media only screen and (max-width: 900px) {
   .header {
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
   }
 }
 
