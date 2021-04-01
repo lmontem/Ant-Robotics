@@ -1,23 +1,4 @@
 .contact-box__map {
+  width: 90%;
   overflow: hidden;
-
-  position: relative;
-
-  padding-bottom: 75%; // This is the aspect ratio
-
-  height: 0;
-
-  overflow: hidden;
-}
-
-.contact-box__map iframe {
-  position: absolute;
-
-  top: 0;
-
-  left: 0;
-
-  width: 100% !important;
-
-  height: 100% !important;
 }
