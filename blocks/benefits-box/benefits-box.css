@@ -4,16 +4,28 @@
 @import url("./__image/benefits-box__image.css");
 
 .benefits-box {
-  min-height: 500px;
-  margin: auto;
-  padding: 100px;
-  background: #f9f9f9;
-  border-radius: 14px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 34px;
-  line-height: 43px;
-  /* identical to box height, or 126% */
+  display: flex;
+  background-color: #fff;
+  min-width: 575px;
+  min-height: 324px;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+}
 
-  color: #000000;
+@media screen and (max-width: 768px) {
+  .benefits-box {
+    margin-top: 110px;
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .benefits-box {
+    flex-direction: column;
+    margin: calc(100% - 2 * 64);
+    position: relative;
+    max-width: 280px;
+  }
 }
