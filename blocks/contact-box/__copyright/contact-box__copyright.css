@@ -3,3 +3,28 @@
   color: #525252;
   font-weight: 400px;
 }
+
+@media screen and (max-width: 768x) {
+  .contact-box__copyright {
+    font-size: 16px;
+    color: #525252;
+    font-weight: 400px;
+    display: none;
+  }
+}
+
+.contact-box__copyright-bottom {
+  font-size: 16px;
+  color: #525252;
+  font-weight: 400px;
+  display: none;
+}
+
+@media screen and (max-width: 768x) {
+  .contact-box__copyright-bottom {
+    font-size: 16px;
+    color: #525252;
+    font-weight: 400px;
+    display: flex;
+  }
+}

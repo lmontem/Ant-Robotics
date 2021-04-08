@@ -1,21 +1,30 @@
+@import url("../vendor/normalize.css");
+@import url("../fonts/fonts.css");
+@import url("../blocks/product/product.css");
+@import url("../blocks/gallery/gallery.css");
+@import url("../blocks/team/team.css");
+@import url("../blocks/popup/popup.css");
+@import url("../blocks/popup/__open/popup__open.css");
 @import url("../blocks/nav/nav.css");
 @import url("../blocks/page/page.css");
 @import url("../blocks/header/header.css");
 @import url("../blocks/benefits-box/benefits-box.css");
 @import url("../blocks/card/card.css");
+@import url("../blocks/card/center.css");
 @import url("../blocks/contact-box/contact-box.css");
 @import url("../blocks/hamburger/hamburger.css");
 @import url("../blocks/hiddenNav/hiddenNav.css");
 @import url("../blocks/hidden/hidden.css");
-@import url('../vendor/normalize.css');
-@import url('../fonts/fonts.css');
-@import url('../blocks/product/product.css');
-@import url('../blocks/gallery/gallery.css');
-@import url('../blocks/team/team.css');
-@import url('../blocks/popup/popup.css');
-@import url('../blocks/popup/__open/popup__open.css');
+
+
 
 a {
   text-decoration: none;
   color: inherit;
+
 }
+body {
+  font-family: "Inter";
+}
+
+

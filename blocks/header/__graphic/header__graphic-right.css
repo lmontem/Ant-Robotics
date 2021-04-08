@@ -1,13 +1,13 @@
 .header__graphic-right {
-  margin-right: 150px;
+  margin: auto;
   height: 354px;
 }
 
 @media only screen and (max-width: 900px) {
   .header__graphic-right {
     height: 177px;
-
-    margin-right: 40px;
+    padding: auto;
+    margin: auto;
   }
 }
 @media only screen and (max-width: 800px) {

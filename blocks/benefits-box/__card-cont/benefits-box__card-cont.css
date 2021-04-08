@@ -1,6 +1,21 @@
 .benefits-box__card-cont {
-  display: flex;
-  flex-direction: row;
+  display: grid;
   justify-content: space-around;
   margin: 70px 100px 110px 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 1000px) {
+  .benefits-box__card-cont {
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .benefits-box__card-cont {
+    margin: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
 }

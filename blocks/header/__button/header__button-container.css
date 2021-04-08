@@ -1,12 +1,14 @@
-.header__button_container {
-  width: 420px;
+.header__button-container {
+  width: 90%;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  margin: auto;
 }
 @media only screen and (max-width: 900px) {
-  .header__button_container {
+  .header__button-container {
     flex-direction: column;
+    align-items: center;
     width: 200px;
-    justify-content: center;
   }
 }

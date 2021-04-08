@@ -2,6 +2,7 @@
 @import url("./__info/contact-box__info.css");
 @import url("./__copyright/contact-box__copyright.css");
 @import url("./__link/contact-box__link.css");
+@import url("./__map/contact-box__map.css");
 
 .contact-box {
   min-height: 500px;

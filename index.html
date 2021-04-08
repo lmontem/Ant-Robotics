@@ -33,16 +33,16 @@
 		  </div>
     </nav>
     <header class='header'>
-      <div class='header__graphic-left'>
-		<img src='./images/header__graphic-left.svg'>
-	  </div>
+     
+		<img class='header__graphic-left' src='./images/header__graphic-left.svg'>
+
       <div class='header__content'>
         <h1 class='header__content-title'>Ant Robotics</h1>
         <p class='header__content-info'>
 			We simplify employment, team-up, and upgrade of transport robots in 
 			warehouses and factories.
 			</p>
-        <div class="header__button_container">
+        <div class="header__button-container">
             <button
               class="header__button header__button-vid black"
               onclick="setColor('header__button-vid', 'orange')"
@@ -52,9 +52,9 @@
             <button class="header__button orange">Learn More</button>
           </div>
       </div>
-      <div class='header__graphic-right'>
-		<img src='./images/header__graphic-right.svg'>
-		</div>
+
+		<img class='header__graphic-right' src='./images/header__graphic-right.svg'>
+
 
     </header>
     <main>
@@ -74,7 +74,7 @@
             </li>
           </ul>
         </div>
-        <div class="product__container">
+        <div class="product__container" id='product'>
           <button type="button" class="product__previous-btn"></button>
           <img class="product__image" src="./images/OTTO100 1.png" alt="robot">
           <div>
@@ -91,45 +91,23 @@
           <button type="button" class="product__next-btn"></button>
         </div>
       </section>
-      <div class='benefits-box'>
-        <h1 class='benefits-box__heading'>Benefits</h1>
 
 
-        <div class='benefits-box__card-cont'>
-          <!-- Card -->
-          <div class='card'>
-            <div class='benefits-box__icon'></div>
-            <div class='card__heading'>Top-Notch Technology</div>
-            <p class='card__desc'>Once you transform your indoor logistics, we'll keep it up-to-date.</p>
-          </div>
-          <!-- Card -->
-          <div class='card'>
-            <div class='benefits-box__icon'></div>
-            <div class='card__heading'>Top-Notch Technology</div>
-            <p class='card__desc'>Once you transform your indoor logistics, we'll keep it up-to-date.</p>
-          </div>
-          <!-- Card -->
-          <div class='card'>
-            <div class='benefits-box__icon'></div>
-            <div class='card__heading'>Top-Notch Technology</div>
-            <p class='card__desc'>Once you transform your indoor logistics, we'll keep it up-to-date.</p>
-          </div>
-          <!-- Card -->
-          <div class='card'>
-            <div class='benefits-box__icon'></div>
-            <div class='card__heading'>Top-Notch Technology</div>
-            <p class='card__desc'>Once you transform your indoor logistics, we'll keep it up-to-date.</p>
-          </div>
-        </div>
-      </header>
-      <main>
-        <div class="benefits-box">
-          <h1 class="benefits-box__heading" id="benefit">Benefits</h1>
+        <section class='benefits-box'>
+        <h1 class='benefits-box__heading' id='benefit'>Benefits</h1>
 
-        <div class="benefits-box">
+        <div class='benefits-box__card-cont benefit-select'>
+
+         </div>
+        </section>
+   
+
+        <section class="benefits-box">
           <h1 class="benefits-box__heading" id="custBen">Customer Benefits</h1>
           <div class="benefits-box__card-cont custBenefits"></div>
-        </div>
+        </section>
+
+
 		<section class="gallery">
         <h2 class="gallery__title">Gallery</h2>
         <button class="gallery__previous-btn" type="button"></button>
@@ -179,6 +157,7 @@
               loading="lazy"
             ></iframe>
           </div>
+          <span class="contact-box__copyright-bottom">© ANT Robotics, 2020.</span>
         </div>
       </main>
       <footer></footer>
@@ -225,6 +204,7 @@
 
     <script type="module" src="./pages/index.js"></script>
     <script type="module" src="./configs/benefits.js"></script>
+    <script type="module" src="./configs/custBenefits.js"></script>
 	<script type="module" src="./configs/team.js"></script>
 	<script type="module" src="./configs/gallery.js"></script>
   </body>

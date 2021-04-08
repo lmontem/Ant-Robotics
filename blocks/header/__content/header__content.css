@@ -1,0 +1,5 @@
+@import url("./header__content-info.css");
+@import url("./header__content-title.css");
+.header__content {
+  margin: auto;
+}

@@ -5,16 +5,20 @@
 
 .benefits-box {
   min-height: 500px;
-  left: 10px;
-  top: 1208px;
-  padding: 100px;
+  margin: 10px;
   background: #f9f9f9;
   border-radius: 14px;
   font-style: normal;
   font-weight: bold;
   font-size: 34px;
   line-height: 43px;
-  /* identical to box height, or 126% */
-
+  display: flex;
   color: #000000;
+  align-items: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 1024px) {
+  .benefits-box {
+    max-width: 748px;
+  }
 }
