@@ -12,9 +12,11 @@
 @media screen and (max-width: 1024px){
     .product__title{
         text-align: center;
-        margin: auto;
+        margin: 40px auto;
     }
 }
+
+
 
 @media screen and (max-width: 320px){
     .product__title{

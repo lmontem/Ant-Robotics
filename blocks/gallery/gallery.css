@@ -1,4 +1,5 @@
 @import url('./__title/gallery__title.css');
+@import url('./__container/gallery__container.css');
 @import url('./__image/gallery__image.css');
 @import url('./__caption/gallery__caption.css');
 @import url('./__previous-btn/gallery__previous-btn.css');
@@ -9,5 +10,5 @@
     border-radius: 14px;
     max-width: 1260px;
     margin: 10px auto;  
-    position: relative;
+    
 }

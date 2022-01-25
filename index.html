@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./pages/index.css" />
   <meta name="description" content="Ant Robotics" />
   <meta name="keywords" content="HTML, CSS & Javascript" />
-  <meta name="author" content="Leandra Montemarano & Desiree Bradish" />
+  <meta name="author" content="Leandra Shelton & Desiree Bradish" />
   <link rel=icon href='./images/favicon.svg'>
   <title>Ant Robotics</title>
 </head>
@@ -58,7 +58,7 @@
 
     </header>
     <main>
-      <section class="product">
+      <section class="product" id="robots">
         <div class="product__info">
           <h2 class="product__title">Wide choice of transport robots</h2>
           <p class="product__description">Few words about robots. Lorem ipsum, abra-kadabra, bla-bla-bla,
@@ -93,8 +93,8 @@
       </section>
 
 
-        <section class='benefits-box'>
-        <h1 class='benefits-box__heading' id='benefit'>Benefits</h1>
+        <section class='benefits-box' id='benefit'>
+        <h1 class='benefits-box__heading'>Benefits</h1>
 
         <div class='benefits-box__card-cont benefit-select'>
 
@@ -108,14 +108,16 @@
         </section>
 
 
-		<section class="gallery">
+		<section class="gallery" id="gallery">
         <h2 class="gallery__title">Gallery</h2>
+        <div class="gallery__container">
         <button class="gallery__previous-btn" type="button"></button>
 
         <div class="gallery__image"></div>
         <p class="gallery__caption">ANT 100 Robot at work</p>
 
         <button class="gallery__next-btn" type="button"></button>
+        </div>
       </section>
 	  <section class="team">
         <h2 class="team__title">Team</h2>
@@ -177,14 +179,35 @@
         
       </div>
     </div>
+
+    <!-- team template -->
     <template class="card-template">
-      <div class="team__card">
+      <div class="team__card" id="team" >
         <div class="team__avatar"></div>
         <h3 class="team__name"></h3>
         <p class="team__position"></p>
         <p class="team__description"></p>
       </div>
     </template>
+
+    <!-- Benefit Template -->
+<template class="benefit-template">
+  <div class="card">
+    <div class="benefits-box__icon"></div>
+    <div class="card__heading">Title</div>
+    <p class="card__desc">Desc.</p>
+  </div>
+</template>
+
+<!-- Cust Benefit Template -->
+<template class="cust-benefit-template">
+  <div class="card center">
+    <div class="benefits-box__image"></div>
+    <div class="card__heading">Title</div>
+    <p class="card__desc">Desc.</p>
+  </div>
+</template>
+
   </div>
     </div>
     <div class="hiddenNav">
@@ -210,20 +233,4 @@
   </body>
 </html>
 
-<!-- Benefit Template -->
-<template class="benefit-template">
-  <div class="card">
-    <div class="benefits-box__icon"></div>
-    <div class="card__heading">Title</div>
-    <p class="card__desc">Desc.</p>
-  </div>
-</template>
 
-<!-- Cust Benefit Template -->
-<template class="cust-benefit-template">
-  <div class="card center">
-    <div class="benefits-box__image"></div>
-    <div class="card__heading">Title</div>
-    <p class="card__desc">Desc.</p>
-  </div>
-</template>
