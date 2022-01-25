@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,226 +12,217 @@
   <link rel=icon href='./images/favicon.svg'>
   <title>Ant Robotics</title>
 </head>
+
 <body>
   <div class="page" id="home">
     <nav class="nav">
       <div class="nav__logo"><a href="#home">Ant Robotics</a></div>
       <ul class="nav__menu">
         <li class="nav__menu-item">
-            <a class="header__link" href="#robots">Robots</a>
-          </li>
-          <li class="nav__menu-item"><a href="#benefit">Benefits</a></li>
-          <li class="nav__menu-item"><a href="#gallery">Gallery</a></li>
-          <li class="nav__menu-item">
-            <a href="#custBen">Will it work for Me?</a>
-          </li>
-          <li class="nav__menu-item"><a href="#team">Team</a></li>
-          <li class="nav__menu-item"><a href="#contact">Contact Us</a></li>
-        </ul>
-      <div class="nav__in">
-	  <a href="https://www.linkedin.com/company/antrobotics/">In</a>
-          <div class="hamburger"></div></div>
-		  </div>
-    </nav>
-    <header class='header'>
-     
-		<img class='header__graphic-left' src='./images/header__graphic-left.svg'>
-
-      <div class='header__content'>
-        <h1 class='header__content-title'>Ant Robotics</h1>
-        <p class='header__content-info'>
-			We simplify employment, team-up, and upgrade of transport robots in 
-			warehouses and factories.
-			</p>
-        <div class="header__button-container">
-            <button
-              class="header__button header__button-vid black"
-              onclick="setColor('header__button-vid', 'orange')"
-            >
-              Watch Video
-            </button>
-            <button class="header__button orange">Learn More</button>
-          </div>
-      </div>
-
-		<img class='header__graphic-right' src='./images/header__graphic-right.svg'>
-
-
-    </header>
-    <main>
-      <section class="product" id="robots">
-        <div class="product__info">
-          <h2 class="product__title">Wide choice of transport robots</h2>
-          <p class="product__description">Few words about robots. Lorem ipsum, abra-kadabra, bla-bla-bla,
-            information about robots here.</p>
-          <ul class="product__facts">
-            <li class="product__item"><img class="product__checkmark" src="./images/checkmark.svg"
-                alt="checkmark decoration"> Some facts
-              here & below</li>
-            <li class="product__item"><img class="product__checkmark" src="./images/checkmark.svg"
-                alt="checkmark decoration">Flexible</li>
-            <li class="product__item"> <img class="product__checkmark" src="./images/checkmark.svg"
-                alt="checkmark decoration">Customizable
-            </li>
-          </ul>
-        </div>
-        <div class="product__container" id='product'>
-          <button type="button" class="product__previous-btn"></button>
-          <img class="product__image" src="./images/OTTO100 1.png" alt="robot">
-          <div>
-            <h3 class="product__heading">OTTO 100 (pending)</h3>
-            <ul class="product__specs">
-              <li class="product__spec">Max payload: <span class="product__span max-payload"> 220 lbs (100 kg)</span></li>
-              <li class="product__spec">Size:<span class="product__span size"> 740 x 550 x 310 mm</span></li>
-              <li class="product__spec">Max speed:<span class="product__span max-speed"> 4.3 mph</span></li>
-              <li class="product__spec">Running time:<span class="product__span running-time"> 4 hrs or 9 mi</span></li>
-              <li class="product__spec">Charging time:<span class="product__span charging-time"> 1.2 hrs (0-80%: 0.75 hrs)</span></li>
-            </ul>
-            <button type="button" class="product__info-btn">Get more info</button>
-          </div>
-          <button type="button" class="product__next-btn"></button>
-        </div>
-      </section>
-
-
-        <section class='benefits-box' id='benefit'>
-        <h1 class='benefits-box__heading'>Benefits</h1>
-
-        <div class='benefits-box__card-cont benefit-select'>
-
-         </div>
-        </section>
-   
-
-        <section class="benefits-box">
-          <h1 class="benefits-box__heading" id="custBen">Customer Benefits</h1>
-          <div class="benefits-box__card-cont custBenefits"></div>
-        </section>
-
-
-		<section class="gallery" id="gallery">
-        <h2 class="gallery__title">Gallery</h2>
-        <div class="gallery__container">
-        <button class="gallery__previous-btn" type="button"></button>
-
-        <div class="gallery__image"></div>
-        <p class="gallery__caption">ANT 100 Robot at work</p>
-
-        <button class="gallery__next-btn" type="button"></button>
-        </div>
-      </section>
-	  <section class="team">
-        <h2 class="team__title">Team</h2>
-        <div class="team__cards">
-                   
-          
-        </div>
-      </section>
-
-        <div class="contact-box" id="contact">
-          <div class="contact-box__info">
-            <span class="contact-box__title">Contacts</span>
-            <div class="contact-box__address">
-              <p class="contact-box__item">
-                <strong>Address:</strong> 8000 Edgewater Dr. Oakland, CA 94621,
-                USA
-              </p>
-              <p class="contact-box__item">
-                <strong>Phone:</strong> +1 (650) 209-0-269
-              </p>
-              <p class="contact-box__item">
-                <strong>Email: </strong>info@antrobotics.tech
-              </p>
-              <a
-                class="contact-box__item contact-box__link"
-                href="https://www.linkedin.com/company/antrobotics/"
-                >LinkedIn</a
-              >
-            </div>
-            <span class="contact-box__copyright">© ANT Robotics, 2020.</span>
-          </div>
-          <div class="contact-box__map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.607466656357!2d-122.20304857626397!3d37.74077838180182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f85bee5c2f57b%3A0x115b0ab943d303e6!2s8000%20Edgewater%20Dr%2C%20Oakland%2C%20CA%2094621!5e0!3m2!1sno!2sus!4v1617063651233!5m2!1sno!2sus"
-              width="600"
-              height="450"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-            ></iframe>
-          </div>
-          <span class="contact-box__copyright-bottom">© ANT Robotics, 2020.</span>
-        </div>
-      </main>
-      <footer></footer>
-	  <div class="popup">
-      <div class="popup__box">
-        <button class="popup__close-btn" type="button" aria-label="Close"></button>
-        <h3 class="popup__title">Write Us</h3>
-        <form class="popup__form">
-          <label class="popup__label">Name</label>
-          <input class="popup__input" type="text">
-          <label class="popup__label">Email*</label>
-          <input class="popup__input" type="email" required>
-          <label class="popup__label">Message</label>
-          <input class="popup__input" type="text" required>
-          <button class="popup__submit-btn" type="submit" aria-label="submit">Submit</button>
-        </form>
-        
-      </div>
-    </div>
-
-    <!-- team template -->
-    <template class="card-template">
-      <div class="team__card" id="team" >
-        <div class="team__avatar"></div>
-        <h3 class="team__name"></h3>
-        <p class="team__position"></p>
-        <p class="team__description"></p>
-      </div>
-    </template>
-
-    <!-- Benefit Template -->
-<template class="benefit-template">
-  <div class="card">
-    <div class="benefits-box__icon"></div>
-    <div class="card__heading">Title</div>
-    <p class="card__desc">Desc.</p>
-  </div>
-</template>
-
-<!-- Cust Benefit Template -->
-<template class="cust-benefit-template">
-  <div class="card center">
-    <div class="benefits-box__image"></div>
-    <div class="card__heading">Title</div>
-    <p class="card__desc">Desc.</p>
-  </div>
-</template>
-
-  </div>
-    </div>
-    <div class="hiddenNav">
-      <ul class="hiddenNav__menu">
-        <li class="hiddenNav__menu-item">
           <a class="header__link" href="#robots">Robots</a>
         </li>
-        <li class="hiddenNav__menu-item"><a href="#benefit">Benefits</a></li>
-        <li class="hiddenNav__menu-item"><a href="#gallery">Gallery</a></li>
-        <li class="hiddenNav__menu-item">
+        <li class="nav__menu-item"><a href="#benefit">Benefits</a></li>
+        <li class="nav__menu-item"><a href="#gallery">Gallery</a></li>
+        <li class="nav__menu-item">
           <a href="#custBen">Will it work for Me?</a>
         </li>
-        <li class="hiddenNav__menu-item"><a href="#team">Team</a></li>
-        <li class="hiddenNav__menu-item"><a href="#contact">Contact Us</a></li>
+        <li class="nav__menu-item"><a href="#team">Team</a></li>
+        <li class="nav__menu-item"><a href="#contact">Contact Us</a></li>
       </ul>
+      <div class="nav__in">
+        <a href="https://www.linkedin.com/company/antrobotics/">In</a>
+        <div class="hamburger"></div>
+      </div>
+  </div>
+  </nav>
+  <header class='header'>
+
+    <img class='header__graphic-left' src='./images/header__graphic-left.svg'>
+
+    <div class='header__content'>
+      <h1 class='header__content-title'>Ant Robotics</h1>
+      <p class='header__content-info'>
+        We simplify employment, team-up, and upgrade of transport robots in
+        warehouses and factories.
+      </p>
+      <div class="header__button-container">
+        <button class="header__button header__button-vid black" onclick="setColor('header__button-vid', 'orange')">
+          Watch Video
+        </button>
+        <button class="header__button orange">Learn More</button>
+      </div>
     </div>
 
-    <script type="module" src="./pages/index.js"></script>
-    <script type="module" src="./configs/benefits.js"></script>
-    <script type="module" src="./configs/custBenefits.js"></script>
-	<script type="module" src="./configs/team.js"></script>
-	<script type="module" src="./configs/gallery.js"></script>
-  </body>
+    <img class='header__graphic-right' src='./images/header__graphic-right.svg'>
+
+
+  </header>
+  <main>
+    <section class="product" id="robots">
+      <div class="product__info">
+        <h2 class="product__title">Wide choice of transport robots</h2>
+        <p class="product__description">Few words about robots. Lorem ipsum, abra-kadabra, bla-bla-bla,
+          information about robots here.</p>
+        <ul class="product__facts">
+          <li class="product__item"><img class="product__checkmark" src="./images/checkmark.svg"
+              alt="checkmark decoration"> Some facts
+            here & below</li>
+          <li class="product__item"><img class="product__checkmark" src="./images/checkmark.svg"
+              alt="checkmark decoration">Flexible</li>
+          <li class="product__item"> <img class="product__checkmark" src="./images/checkmark.svg"
+              alt="checkmark decoration">Customizable
+          </li>
+        </ul>
+      </div>
+      <div class="product__container" id='product'>
+        <button type="button" class="product__previous-btn"></button>
+        <img class="product__image" src="./images/OTTO100 1.png" alt="robot">
+        <div>
+          <h3 class="product__heading">OTTO 100 (pending)</h3>
+          <ul class="product__specs">
+            <li class="product__spec">Max payload: <span class="product__span max-payload"> 220 lbs (100 kg)</span></li>
+            <li class="product__spec">Size:<span class="product__span size"> 740 x 550 x 310 mm</span></li>
+            <li class="product__spec">Max speed:<span class="product__span max-speed"> 4.3 mph</span></li>
+            <li class="product__spec">Running time:<span class="product__span running-time"> 4 hrs or 9 mi</span></li>
+            <li class="product__spec">Charging time:<span class="product__span charging-time"> 1.2 hrs (0-80%: 0.75
+                hrs)</span></li>
+          </ul>
+          <button type="button" class="product__info-btn">Get more info</button>
+        </div>
+        <button type="button" class="product__next-btn"></button>
+      </div>
+    </section>
+
+
+    <section class='benefits-box' id='benefit'>
+      <h1 class='benefits-box__heading'>Benefits</h1>
+
+      <div class='benefits-box__card-cont benefit-select'>
+
+      </div>
+    </section>
+
+
+    <section class="benefits-box">
+      <h1 class="benefits-box__heading" id="custBen">Customer Benefits</h1>
+      <div class="benefits-box__card-cont custBenefits"></div>
+    </section>
+
+
+    <section class="gallery" id="gallery">
+      <h2 class="gallery__title">Gallery</h2>
+      <div class="gallery__container">
+        <button class="gallery__previous-btn" type="button"></button>
+        <div>
+          <div class="gallery__image"></div>
+          <p class="gallery__caption">ANT 100 Robot at work</p>
+        </div>
+        <button class="gallery__next-btn" type="button"></button>
+      </div>
+    </section>
+    <section class="team">
+      <h2 class="team__title">Team</h2>
+      <div class="team__cards">
+
+
+      </div>
+    </section>
+
+    <div class="contact-box" id="contact">
+      <div class="contact-box__info">
+        <span class="contact-box__title">Contacts</span>
+        <div class="contact-box__address">
+          <p class="contact-box__item">
+            <strong>Address:</strong> 8000 Edgewater Dr. Oakland, CA 94621,
+            USA
+          </p>
+          <p class="contact-box__item">
+            <strong>Phone:</strong> +1 (650) 209-0-269
+          </p>
+          <p class="contact-box__item">
+            <strong>Email: </strong>info@antrobotics.tech
+          </p>
+          <a class="contact-box__item contact-box__link"
+            href="https://www.linkedin.com/company/antrobotics/">LinkedIn</a>
+        </div>
+        <span class="contact-box__copyright">© ANT Robotics, 2020.</span>
+      </div>
+      <div class="contact-box__map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.607466656357!2d-122.20304857626397!3d37.74077838180182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f85bee5c2f57b%3A0x115b0ab943d303e6!2s8000%20Edgewater%20Dr%2C%20Oakland%2C%20CA%2094621!5e0!3m2!1sno!2sus!4v1617063651233!5m2!1sno!2sus"
+          width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <span class="contact-box__copyright-bottom">© ANT Robotics, 2020.</span>
+    </div>
+  </main>
+  <footer></footer>
+  <div class="popup">
+    <div class="popup__box">
+      <button class="popup__close-btn" type="button" aria-label="Close"></button>
+      <h3 class="popup__title">Write Us</h3>
+      <form class="popup__form">
+        <label class="popup__label">Name</label>
+        <input class="popup__input" type="text">
+        <label class="popup__label">Email*</label>
+        <input class="popup__input" type="email" required>
+        <label class="popup__label">Message</label>
+        <input class="popup__input" type="text" required>
+        <button class="popup__submit-btn" type="submit" aria-label="submit">Submit</button>
+      </form>
+
+    </div>
+  </div>
+
+  <!-- team template -->
+  <template class="card-template">
+    <div class="team__card" id="team">
+      <div class="team__avatar"></div>
+      <h3 class="team__name"></h3>
+      <p class="team__position"></p>
+      <p class="team__description"></p>
+    </div>
+  </template>
+
+  <!-- Benefit Template -->
+  <template class="benefit-template">
+    <div class="card">
+      <div class="benefits-box__icon"></div>
+      <div class="card__heading">Title</div>
+      <p class="card__desc">Desc.</p>
+    </div>
+  </template>
+
+  <!-- Cust Benefit Template -->
+  <template class="cust-benefit-template">
+    <div class="card center">
+      <div class="benefits-box__image"></div>
+      <div class="card__heading">Title</div>
+      <p class="card__desc">Desc.</p>
+    </div>
+  </template>
+
+  </div>
+  </div>
+  <div class="hiddenNav">
+    <ul class="hiddenNav__menu">
+      <li class="hiddenNav__menu-item">
+        <a class="header__link" href="#robots">Robots</a>
+      </li>
+      <li class="hiddenNav__menu-item"><a href="#benefit">Benefits</a></li>
+      <li class="hiddenNav__menu-item"><a href="#gallery">Gallery</a></li>
+      <li class="hiddenNav__menu-item">
+        <a href="#custBen">Will it work for Me?</a>
+      </li>
+      <li class="hiddenNav__menu-item"><a href="#team">Team</a></li>
+      <li class="hiddenNav__menu-item"><a href="#contact">Contact Us</a></li>
+    </ul>
+  </div>
+
+  <script type="module" src="./pages/index.js"></script>
+  <script type="module" src="./configs/benefits.js"></script>
+  <script type="module" src="./configs/custBenefits.js"></script>
+  <script type="module" src="./configs/team.js"></script>
+  <script type="module" src="./configs/gallery.js"></script>
+</body>
+
 </html>
-
-

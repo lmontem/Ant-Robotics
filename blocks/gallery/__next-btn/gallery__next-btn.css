@@ -6,6 +6,7 @@
     border: none;    
     width: 20px;
     height: 15px;
+    margin-left: 25px;
     
 }
 
@@ -21,8 +22,7 @@
         background-size: initial;
         border-radius: 6px;
         background-position: center right 15px;
-        top: 325px;
-        right: 75px;
+        
     }
 }
 

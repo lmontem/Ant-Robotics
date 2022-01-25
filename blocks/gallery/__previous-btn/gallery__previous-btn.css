@@ -6,7 +6,7 @@
     border: none; 
     width: 20px;
     height: 15px;
-    
+    margin-right: 25px;
 }
 
 .gallery__previous-btn:hover{
