@@ -13,3 +13,9 @@
     background-color: #F9F9F9;
   
 }
+
+@media screen and (max-width: 500px) {
+    .team{
+        margin: 0 auto;
+    }
+}

@@ -32,3 +32,9 @@
   min-width: 320px;
   z-index: 1;
 }
+
+@media screen and (max-width: 500px) {
+  .nav{
+    max-width: 280px;
+  }
+}
