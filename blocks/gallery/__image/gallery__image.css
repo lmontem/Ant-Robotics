@@ -11,9 +11,15 @@
     
 }
 
+@media screen and (max-width: 700px) {
+    .gallery__image{
+        min-width: 500px;
+    }
+}
+
 @media screen and (max-width: 500px){
     .gallery__image{
-        min-width: 280px;
+        min-width: 300px;
         height: 160px;
     }
 }
