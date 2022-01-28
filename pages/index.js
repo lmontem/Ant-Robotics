@@ -195,6 +195,10 @@ function overlayClose(e) {
   }
 }
 
+//learn more button
+const learnMoreBtn = document.querySelector('.orange');
+//learn more info opening popup
+learnMoreBtn.addEventListener('click', openPopup);
 //get more info button opening popup
 getMoreInfoBtn.addEventListener("click", openPopup);
 // popup closing on close btn click
